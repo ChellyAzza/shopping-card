@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body>
+    <main>
+        <div id="product">
+            <i class="far fa-heart red" ></i>
+            <img src="https://www.sephora.fr/dw/image/v2/BCVW_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw3825ef09/images/hi-res/SKU/SKU_841/470329_swatch.jpg?sw=585&sh=585&sm=fit" alt="">
+            <input type="text" id="price" readonly value="15">
+            <span>lipstick huda beauty </span>
+            <input id="number" type="number" class="input">
+            <input id="totale"value="0" type="text"class="input"  >
+            <button id="delete" >delete</button>
+        </div>
+        <div id="product">
+            <i class="far fa-heart red"></i>
+            <img src="data:image/jpeg;base64,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"
+                alt="">
+            <input type="text" id="price" readonly value="15">
+            <span >fondation hd </span>
+            <input id="number" type="number" class="input">
+            <input id="totale" value="0" type="text" class="input" >
+            <button id="delete" >delete</button>
+        </div>
+        <div id="product">
+            <i class="far fa-heart red"></i>
+            <img src="https://finesse.ra.tn/wp-content/uploads/2020/08/Makeup-Revolution-Fortune-favorise-les-braves.png" alt="">
+            <input type="text" id="price" readonly value="15">
+            <span>  revolution palette</span>
+            <input id="number" type="number" class="input">
+            <input id="totle" value="0" type="text"class="input" >
+            <button id="delete" >delete</button>
+        </div>
+
+
+    </main>
+    <script src="js.js">
+        
+    </script>
+</body>
+
+</html>
